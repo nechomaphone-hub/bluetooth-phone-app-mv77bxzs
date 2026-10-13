@@ -625,7 +625,7 @@ public class MainActivity extends Activity {
                 btnRemove.setBackgroundResource(R.drawable.bg_button_danger);
                 btnRemove.setOnClickListener(v -> {
                     favoritesManager.removeFavorite(num);
-                    Toast.TestCase: showFavoritesScreen();
+                    Toast.makeText(this, "הסר ממועדפים", Toast.LENGTH_SHORT).show();
                     showFavoritesScreen();
                 });
                 item.addView(btnRemove);
