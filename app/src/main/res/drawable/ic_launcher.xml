@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Background rounded square -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M16,8h64a8,8 0,0 1,8 v64a8,8 0,0 1,-8 h-64a8,8 0,0 1,-8 -v-64a8,8 0,0 1,8 -z" />
+    <!-- Accent decorative card shape -->
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M24,16h48a4,4 0,0 1,4 v48a4,4 0,0 1,-4 h-48a4,4 0,0 1,-4 -v-48a4,4 0,0 1,4 -z" />
+    <!-- Bluetooth Symbol inside -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M48,22l12,12l-12,12l12,12l-12,12l-1,-1v-44l1,1z M48,30v14l6,-6z M48,52v14l-6,-6z" />
+    <!-- Phone handset icon glyph -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M60,68c-3.5,0 -7,-0.5 -10.5,-1.5c-1,-0.3 -2.2,0 -3,0.8l-3.5,3.5c-5,-2.5 -9,-6.5 -11.5,-11.5l3.5,-3.5c0.8,-0.8 1.1,-2 0.8,-3c-1,-3.5 -1.5,-7 -1.5,-10.5c0,-1.1 -0.9,-2 -2,-2h-6c-1.1,0 -2,0.9 -2,2c0,16.5 13.5,30 30,30c1.1,0 2,-0.9 2,-2v-6c0,-1.1 -0.9,-2 -2,-2z" />
+</vector>
